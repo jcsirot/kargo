@@ -24,4 +24,3 @@ If you have questions, you can [invite yourself](https://slack.kubespray.io/) to
 [![Build Status](https://travis-ci.org/kubespray/kargo.svg)](https://travis-ci.org/kubespray/kargo) </br>
 CI tests sponsored by Google (GCE), and [teuto.net](https://teuto.net/) for OpenStack.
 
-Add some more modifications in order to trigger a build...
