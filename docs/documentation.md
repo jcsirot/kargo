@@ -26,6 +26,7 @@ To deploy the cluster you can use :
 *  [Cloud providers](docs/cloud.md)
 *  [Openstack](docs/openstack.md)
 *  [Network plugins](#network-plugins)
+*  [Roadmap](docs/roadmap.md)
 
 Supported Linux distributions
 ===============
