@@ -11,9 +11,9 @@ Kargo's roadmap
 ### Provisionning and cloud providers
 - Terraform to provision instances on GCE, AWS, Openstack, Digital Ocean, Azure
 - On AWS autoscaling, multi AZ, multi-region (Ubernetes)
-- On Azure autoscaling, create loadbalancer 
+- On Azure autoscaling, create loadbalancer
 - On GCE be able to create a loadbalancer automatically (IAM ?)
-- TLS boostrap support for kubelet 
+- TLS boostrap support for kubelet
   (related issues: https://github.com/kubernetes/kubernetes/pull/20439 <br>
    https://github.com/kubernetes/kubernetes/issues/18112)
 
@@ -27,7 +27,7 @@ Kargo's roadmap
 - single test with the Ansible version n-1 per day
 - Test idempotency on on single OS but for all network plugins/container engines
 - single test on AWS per day
-- test different achitectures : 
+- test different achitectures :
            - 3 instances, 3 are members of the etcd cluster, 2 of them acting as master and node, 1 as node
            - 5 instances, 3 are etcd and nodes, 2 are masters only
            - 7 instances, 3 etcd only, 2 masters, 2 nodes
@@ -48,11 +48,12 @@ Kargo's roadmap
 - option to shutdown services gracefuly and delete instances
 - `kargo vagrant` to setup a test cluster locally
 - switch to Terraform instead of Ansible for provisionning
+- update $HOME/.kube/config when a cluster is deployed, and optionally switch to this context
 
 ### Kargo API
 - Perform all actions through an API
 - Store inventories / configurations of mulltiple clusters
-- make sure that state of cluster is completely saved in no more  than one config file beyond hosts inventory 
+- make sure that state of cluster is completely saved in no more  than one config file beyond hosts inventory
 
 ### Addons (with kpm)
 Include optionals deployments to init the cluster:
@@ -62,7 +63,7 @@ Include optionals deployments to init the cluster:
 
 ##### Others
 - kubedns
- 
+
 ##### Dashboards:
  - kubernetes-dashboard
  - Fabric8
